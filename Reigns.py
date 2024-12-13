@@ -506,7 +506,6 @@ while True:
     menu = input(f'''{'MENU PRINCIPAL':-^38}
 [1] Começar o jogo
 [2] Como jogar
-[3] Créditos
 >>>> ''')
     sleep(1.5)
 
@@ -524,19 +523,6 @@ Para escolher sua ação, utilize as teclas 1 e 2 para selecioná-la.
 Lembre-se, cada resposta alterará os atributos, então pense bem antes de responder qualquer coisa.
 VIDA LONGA AO REI!
 ''', 0.03)
-        qualquer = input('Aperte Enter para continuar: ')
-        sleep(0.5)
-        limpar_e_printar(titulo)
-    elif menu == '3':
-        print('=' * 20)
-        slowprint(
-            '''- André Ávila Cardoso
-- Elvio Diodato Miranda da Silveira Diodato
-- Erick Castro
-- Fabricio de Lima 
-- Yago Calixto Carvalho da Silva
-''', 0.03
-        )
         qualquer = input('Aperte Enter para continuar: ')
         sleep(0.5)
         limpar_e_printar(titulo)
